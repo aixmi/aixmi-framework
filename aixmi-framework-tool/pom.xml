@@ -7,10 +7,9 @@
 		<artifactId>aixmi-framework</artifactId>
 		<groupId>io.github.aixmi</groupId>
 		<version>${revision}</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>aimix-framework-tool</artifactId>
+	<artifactId>aixmi-framework-tool</artifactId>
 
-	<name>aimix-framework-tool</name>
+	<name>aixmi-framework-tool</name>
 </project>

@@ -4,10 +4,9 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>aixmi-framework</artifactId>
 		<groupId>io.github.aixmi</groupId>
-		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
+		<artifactId>aixmi-framework</artifactId>
+		<version>${revision}</version>
 	</parent>
 
 	<artifactId>aixmi-framework-core</artifactId>
