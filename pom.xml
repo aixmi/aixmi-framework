@@ -25,6 +25,10 @@
 		<module>aixmi-framework-enums</module>
 		<module>aixmi-framework-encrypt</module>
 		<module>aixmi-framework-all</module>
+		<module>aixmi-framework-cache</module>
+		<module>aixmi-framework-bloom</module>
+		<module>aixmi-framework-time</module>
+		<module>aixmi-framework-money</module>
 	</modules>
 
 
