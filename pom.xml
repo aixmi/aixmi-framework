@@ -17,6 +17,14 @@
 		<module>aixmi-framework-common</module>
 		<module>aixmi-framework-tool</module>
 		<module>aixmi-framework-statemachine</module>
+		<module>aixmi-framework-id</module>
+		<module>aixmi-framework-ip</module>
+		<module>aixmi-framework-regex</module>
+		<module>aixmi-framework-tree</module>
+		<module>aixmi-framework-logging</module>
+		<module>aixmi-framework-enums</module>
+		<module>aixmi-framework-encrypt</module>
+		<module>aixmi-framework-all</module>
 	</modules>
 
 
@@ -54,6 +62,13 @@
 		</developer>
 	</developers>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.12</version>
+		</dependency>
+	</dependencies>
 
 	<profiles>
 		<profile>
