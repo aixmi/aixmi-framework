@@ -29,6 +29,7 @@
 		<module>aixmi-framework-bloom</module>
 		<module>aixmi-framework-time</module>
 		<module>aixmi-framework-money</module>
+		<module>aixmi-framework-validation</module>
 	</modules>
 
 
