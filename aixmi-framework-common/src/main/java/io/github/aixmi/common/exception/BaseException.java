@@ -1,30 +1,27 @@
 package io.github.aixmi.common.exception;
 
 /**
- * Base Exception is the parent of all exceptions
- *
- * @author fulan.zjf 2017年10月22日 上午12:00:39
+ * @author mcqj
+ * @date 2020-11-24 下午 14:16
  */
-public abstract class BaseException extends RuntimeException {
-
+public class BaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 
-	private ErrorCodeI errCode;
+	private IErrorCode errCode;
 
-	public BaseException(String errMessage) {
-		super(errMessage);
+	public BaseException(String msg) {
+		super(msg);
 	}
 
-	public BaseException(String errMessage, Throwable e) {
-		super(errMessage, e);
+	public BaseException(String msg, Throwable e) {
+		super(msg, e);
 	}
 
-	public ErrorCodeI getErrCode() {
+	public IErrorCode getErrCode() {
 		return errCode;
 	}
 
-	public void setErrCode(ErrorCodeI errCode) {
+	public void setErrCode(IErrorCode errCode) {
 		this.errCode = errCode;
 	}
-
 }
