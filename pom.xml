@@ -30,6 +30,7 @@
 		<module>aixmi-framework-time</module>
 		<module>aixmi-framework-money</module>
 		<module>aixmi-framework-validation</module>
+		<module>aixmi-framework-marker</module>
 	</modules>
 
 
