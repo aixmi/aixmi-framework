@@ -32,6 +32,7 @@
 		<module>aixmi-framework-validation</module>
 		<module>aixmi-framework-marker</module>
 		<module>aixmi-framework-faker</module>
+		<module>aixmi-framework-dependencies</module>
 	</modules>
 
 
@@ -43,6 +44,7 @@
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
 	</properties>
 
 
@@ -83,6 +85,35 @@
 		</dependency>
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>flatten-maven-plugin</artifactId>
+				<version>${flatten-maven-plugin.version}</version>
+				<configuration>
+					<updatePomFile>true</updatePomFile>
+					<flattenMode>resolveCiFriendliesOnly</flattenMode>
+				</configuration>
+				<executions>
+					<execution>
+						<id>flatten</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>flatten</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>flatten.clean</id>
+						<phase>clean</phase>
+						<goals>
+							<goal>clean</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 	<profiles>
 		<profile>
 			<id>default</id>
@@ -173,31 +204,7 @@
 						<configuration>
 						</configuration>
 					</plugin>
-					<plugin>
-						<groupId>org.codehaus.mojo</groupId>
-						<artifactId>flatten-maven-plugin</artifactId>
-						<version>${flatten-maven-plugin.version}</version>
-						<configuration>
-							<updatePomFile>true</updatePomFile>
-							<flattenMode>resolveCiFriendliesOnly</flattenMode>
-						</configuration>
-						<executions>
-							<execution>
-								<id>flatten</id>
-								<phase>process-resources</phase>
-								<goals>
-									<goal>flatten</goal>
-								</goals>
-							</execution>
-							<execution>
-								<id>flatten.clean</id>
-								<phase>clean</phase>
-								<goals>
-									<goal>clean</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
+
 				</plugins>
 			</build>
 			<distributionManagement>
