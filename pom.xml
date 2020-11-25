@@ -31,6 +31,7 @@
 		<module>aixmi-framework-money</module>
 		<module>aixmi-framework-validation</module>
 		<module>aixmi-framework-marker</module>
+		<module>aixmi-framework-faker</module>
 	</modules>
 
 

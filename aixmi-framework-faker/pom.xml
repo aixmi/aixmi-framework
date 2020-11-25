@@ -8,8 +8,7 @@
 		<groupId>io.github.aixmi</groupId>
 		<version>${revision}</version>
 	</parent>
+	<artifactId>aixmi-framework-faker</artifactId>
+	<name>aixmi-framework-faker</name>
 
-	<artifactId>aixmi-framework-marker</artifactId>
-
-	<name>aixmi-framework-marker</name>
 </project>
