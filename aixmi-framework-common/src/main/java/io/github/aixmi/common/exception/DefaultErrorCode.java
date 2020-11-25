@@ -1,7 +1,7 @@
 package io.github.aixmi.common.exception;
 
 /**
- * @author Administrator
+ * @author mcqj
  * @date 2020-11-24 下午 17:35
  */
 public enum DefaultErrorCode implements IErrorCode {

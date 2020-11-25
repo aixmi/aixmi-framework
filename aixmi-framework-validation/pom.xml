@@ -13,5 +13,16 @@
 
 
 	<name>aixmi-framework-validation</name>
+	<properties>
+		<hibernate.validator.version>6.1.6.Final</hibernate.validator.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate.validator.version}</version>
+		</dependency>
+	</dependencies>
 
 </project>
