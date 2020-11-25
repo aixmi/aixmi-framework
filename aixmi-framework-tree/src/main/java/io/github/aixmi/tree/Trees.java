@@ -8,6 +8,9 @@ import java.util.*;
  * @date 2020-11-25 上午 11:29
  */
 public class Trees {
+	private Trees() {
+
+	}
 
 	public static <T extends ITreeNode> List<T> tree(List<T> items) {
 		List<T> result = new ArrayList<>();
