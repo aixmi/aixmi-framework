@@ -12,5 +12,12 @@
 
 	<artifactId>aixmi-framework-logging</artifactId>
 	<name>aixmi-framework-logging</name>
-
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.9</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
