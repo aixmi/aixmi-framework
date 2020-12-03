@@ -12,4 +12,19 @@
 	<artifactId>aixmi-framework-tool</artifactId>
 
 	<name>aixmi-framework-tool</name>
+	<dependencies>
+
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.4.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>29.0-jre</version>
+		</dependency>
+
+	</dependencies>
 </project>
