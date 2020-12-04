@@ -109,6 +109,11 @@
 				<artifactId>aixmi-framework-faker</artifactId>
 				<version>${revision}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-captcha</artifactId>
+				<version>${revision}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
