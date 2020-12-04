@@ -9,19 +9,21 @@ import lombok.Data;
 @Data
 public class Response extends DTO {
 
-	private static final Response SUCCESS;
+	private static final Response SUCCESS_RESPONSE;
 
 	static {
-		SUCCESS = new Response();
-		SUCCESS.setSuccess(true);
+		SUCCESS_RESPONSE = new Response();
+		SUCCESS_RESPONSE.setSuccess(true);
 	}
 
 	private String code;
 	private boolean success = false;
 	private String msg;
+	private String rid;
+	private long timestamp;
 
 	public static Response success() {
-		return SUCCESS;
+		return SUCCESS_RESPONSE;
 	}
 
 
