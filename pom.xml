@@ -33,6 +33,8 @@
 		<module>aixmi-framework-marker</module>
 		<module>aixmi-framework-faker</module>
 		<module>aixmi-framework-dependencies</module>
+		<module>aixmi-framework-spring-boot-support</module>
+		<module>aixmi-framework-spring-support</module>
 	</modules>
 
 
