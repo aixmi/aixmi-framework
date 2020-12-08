@@ -114,6 +114,16 @@
 				<artifactId>aixmi-framework-captcha</artifactId>
 				<version>${revision}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-spring-boot-support</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-spring-support</artifactId>
+				<version>${revision}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
