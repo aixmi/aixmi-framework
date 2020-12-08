@@ -1,0 +1,11 @@
+集成[https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
+```xml
+<dependencies>
+	<dependency>
+	    <groupId>io.github.aixmi</groupId>
+	    <artifactId>aixmi-framework</artifactId>
+	    <version>latest_version</version>
+	    <scope>test</scope>
+	</dependency>
+</dependencies>
+```
