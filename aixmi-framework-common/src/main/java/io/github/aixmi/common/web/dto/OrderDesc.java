@@ -11,6 +11,6 @@ public class OrderDesc {
 
 	private String col;
 
-	private boolean asc = true;
+	private Boolean asc = true;
 
 }
