@@ -11,5 +11,22 @@
 
 	<artifactId>aixmi-framework-ip</artifactId>
 
-
+<dependencies>
+	<dependency>
+		<groupId>org.lionsoul</groupId>
+		<artifactId>ip2region</artifactId>
+		<version>1.7.2</version>
+	</dependency>
+	<dependency>
+		<groupId>io.github.aixmi</groupId>
+		<artifactId>aixmi-framework-common</artifactId>
+		<version>${revision}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>${slf4j.version}</version>
+		<scope>provided</scope>
+	</dependency>
+</dependencies>
 </project>
