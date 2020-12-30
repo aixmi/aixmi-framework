@@ -11,5 +11,11 @@
 
 	<artifactId>aixmi-framework-enums</artifactId>
 	<name>aixmi-framework-enums</name>
-
+	<dependencies>
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-framework-common</artifactId>
+			<version>${revision}</version>
+		</dependency>
+	</dependencies>
 </project>
