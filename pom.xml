@@ -36,6 +36,8 @@
 		<module>aixmi-framework-dependencies</module>
 		<module>aixmi-framework-spring-boot-support</module>
 		<module>aixmi-framework-spring-support</module>
+		<module>aixmi-framework-dto</module>
+		<module>aixmi-framework-exception</module>
 	</modules>
 
 
