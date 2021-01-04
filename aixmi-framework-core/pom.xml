@@ -12,4 +12,11 @@
 	<artifactId>aixmi-framework-core</artifactId>
 
 	<name>aixmi-framework-core</name>
+	<dependencies>
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-framework-marker</artifactId>
+			<version>${revision}</version>
+		</dependency>
+	</dependencies>
 </project>

@@ -1,7 +1,7 @@
 package io.github.aixmi.core.ds;
 
 
-import com.sun.istack.internal.Nullable;
+import io.github.aixmi.marker.Nullable;
 
 /**
  * 引入一个简简单单的Triple, 用于返回值返回三个元素.
