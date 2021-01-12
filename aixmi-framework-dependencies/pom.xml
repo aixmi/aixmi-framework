@@ -124,6 +124,16 @@
 				<artifactId>aixmi-framework-spring-support</artifactId>
 				<version>${revision}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-dto</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-exception</artifactId>
+				<version>${revision}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
