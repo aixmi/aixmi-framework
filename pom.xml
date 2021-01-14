@@ -38,6 +38,7 @@
 		<module>aixmi-framework-spring-support</module>
 		<module>aixmi-framework-dto</module>
 		<module>aixmi-framework-exception</module>
+		<module>aixmi-framework-captcha</module>
 	</modules>
 
 

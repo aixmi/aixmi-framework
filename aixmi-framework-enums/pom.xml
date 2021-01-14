@@ -17,5 +17,11 @@
 			<artifactId>aixmi-framework-common</artifactId>
 			<version>${revision}</version>
 		</dependency>
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-framework-core</artifactId>
+			<version>1.0.0</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 </project>

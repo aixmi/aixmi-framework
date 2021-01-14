@@ -1,6 +1,7 @@
 package io.github.aixmi.enums;
 
-import io.github.aixmi.common.web.dto.KVItem;
+
+import io.github.aixmi.core.ds.KVItem;
 
 import java.util.List;
 import java.util.Objects;
